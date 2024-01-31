@@ -1,0 +1,386 @@
+$white: #fff
+$blue: #1400FF
+$black: #0B082F
+body
+    font-family: 'Gilroy', sans-serif
+h2
+    font-size: 55px
+    font-style: normal
+    font-weight: 600
+    line-height: 100%
+h3
+    font-size: 30px
+    font-style: normal
+    font-weight: 500
+    line-height: 109%
+    & span
+        color: $blue
+h4
+    font-size: 30px
+    font-style: normal
+    font-weight: 500
+    line-height: 109%
+h5
+    font-size: 30px
+    font-style: normal
+    font-weight: 500
+    line-height: 121%
+header
+    border-bottom: 1px solid rgba(68, 83, 113, 0.25)
+    background: #FFF
+    padding-top: 25px
+    padding-bottom: 25px
+.navbar-brand
+    margin-right: 40px
+    & img
+        max-width: 202px
+.nav-link
+    font-size: 20px
+    font-style: normal
+    font-weight: 500
+    line-height: 100%
+.nav-social
+    & a
+        text-decoration: none
+        margin-right: 15px
+.nav-btn
+    border-radius: 15px
+    background: $blue
+    color: $white
+    padding: 15px
+    font-weight: 500
+    line-height: 100%
+    font-size: 20px
+.navbar-toggler
+    border: none
+.btn:hover
+    background: $blue
+    color: $white
+.start
+    background: #FAFAFF
+    position: relative
+    padding-left: 5%
+    &__left
+        & span
+            display: block
+            width: 100%
+            margin-top: 25px
+    &__right
+        background: $white
+    &__h1
+        font-size: 64px
+        font-style: normal
+        font-weight: 600
+        line-height: 100%
+        color: $black
+        & span
+            color: $blue
+    &__btn
+        background: $blue
+        color: $white
+        font-size: 20px
+        font-weight: 500
+        margin-top: 50px
+        margin-bottom: 50px
+        padding: 25px 35px
+.start-list
+    padding-left: 0
+    margin-left: 0
+.start-list-item
+    display: flex
+    align-items: center
+    margin-top: 25px
+    & img
+        margin-right: 15px
+.start-img
+    width: 100%
+.about
+    margin-top: 100px
+    &__bg
+        background: $blue
+        border-radius: 25px
+        padding: 25px
+    &__h2
+        color: $white
+        padding-left: 25px
+        width: 70%
+        margin-bottom: 50px
+    &__left, &__right
+        font-size: 64px
+        font-style: normal
+        font-weight: 600
+        line-height: 100%
+        background: $white
+        height: 100%
+        padding: 25px
+        border-radius: 25px
+        color: $black
+        & span
+            font-size: 22px
+            font-style: normal
+            font-weight: 400
+            line-height: 100%
+            display: block
+            width: 100%
+            margin-bottom: 25px
+            color: $black
+.video
+    margin-top: 150px
+    &__h2
+        color: $black
+        & span
+            color: $blue
+    &__link
+        height: 100%
+        min-height: 400px
+        width: 100%
+        display: block
+        border-radius: 25px
+        & svg
+            position: absolute
+            top: 45%
+            left: 45%
+            right: auto
+            bottom: auto
+.service
+    margin-top: 150px
+    &__h2
+        & span
+            color: $blue
+    &__img
+        min-height: 300px
+    &__p
+        font-size: 24px
+        font-style: normal
+        font-weight: 400
+        line-height: 121%
+    &__btn
+        background: $blue
+        color: $white
+        font-size: 24px
+        padding: 15px 25px
+        border-radius: 15px
+.docs
+    margin-top: 150px
+    &__bg
+        padding: 50px
+    &__i
+        width: 75px
+    &__h2
+        width: 70%
+        margin-top: 50px
+        & span
+            color: $blue
+    &__elem
+        margin-top: 50px
+    &__h4
+        margin-top: 25px
+        & span
+            color: $blue
+    &__card
+        background: $white
+        border-radius: 25px
+        padding: 25px
+        &__header
+            & svg
+                width: 35px
+            & p
+                font-size: 20px
+                font-style: normal
+                font-weight: 400
+                line-height: 121%
+                margin-top: 25px
+.faq
+    margin-top: 150px
+    &__h2
+        font-size: 64px
+        font-style: normal
+        font-weight: 600
+        line-height: 121%
+    &__content
+        max-height: 500px
+        overflow-y: hidden
+    &__content-open
+        height: 100%
+        max-height: 100%
+    &__content-gradient
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        top: 60%
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 9.82%, #FFF 99.95%)
+    &__content-gradient-none
+        display: none
+    &__btn
+        color: $white
+        padding: 15px 25px
+        border-radius: 15px
+        background: $blue
+        font-size: 24px
+.btn-none
+    display: none
+.form
+    margin-top: 150px
+    &__block
+        background: $blue
+        border-radius: 50px
+        padding: 50px 75px
+        overflow: hidden
+        & span
+            font-size: 20px
+            font-weight: 500
+            color: $white
+            display: block
+            width: 100%
+    &__h2
+        color: $white
+    &__btn
+        background: $black
+        border-radius: 15px
+        color: $white
+        font-size: 20px
+        font-weight: 500
+        width: 100%
+        padding: 25px 25px
+        margin-top: 20px
+        &:hover
+            color: $white
+            background: $black
+form
+    padding-left: 100px
+.form-control
+    padding: 25px 15px
+    border-radius: 15px
+.svg-bg-arrow
+    position: absolute
+    bottom: 0
+    top: auto
+    left: 40%
+    right: auto
+.svg-bg-line
+    position: absolute
+    bottom: auto
+    top: 0
+    left: 0
+    right: auto
+.blog
+    margin-top: 150px
+    & a
+        text-decoration: none
+        color: $black
+    &__item
+        &__img
+            height: 300px
+            border-radius: 25px
+        &__title
+            font-size: 32px
+            font-style: normal
+            font-weight: 500
+        &__des
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: 121%
+.contacts
+    &__h2
+        color: $black
+    &__item
+        &__head
+            font-size: 30px
+            font-weight: 500
+            color: $black
+        &__footer
+            & a
+                color: $black
+                text-decoration: none
+                font-size: 20px
+                font-weight: 400
+    &__btn
+        font-size: 20px
+        font-weight: 500
+        color: $white
+        background: $blue
+        padding: 10px 25px
+        border-radius: 15px
+footer
+    margin-top: 150px
+    padding-top: 75px
+    padding-bottom: 75px
+    background: $black
+    border-radius: 50px 50px 0 0
+.footer
+    &__btn
+        font-size: 20px
+        padding: 10px 20px
+        color: $white
+        background: $blue
+        &:hover
+            color: $white
+            background: $blue
+.modal-title
+    font-size: 30px
+    font-weight: 600
+    color: $blue
+.modal-header
+    border: none
+.modal-header-text
+    & span
+        width: 100%
+        display: block
+        font-size: 20px
+        font-weight: 500
+.modal-body form
+    margin-left: 0
+    padding-left: 0
+/* Mobile */
+@media (max-width:992px)
+    h2
+        font-size: 32px
+    h3
+        font-size: 24px
+    .start
+        margin-left: 0
+        margin-right: 0
+        padding-left: 0
+        &__h1
+            font-size: 36px
+        &__btn
+            width: 100%
+            font-size: 16px
+            font-weight: 600
+            padding: 10px 25px
+            margin-top: 25px
+            margin-bottom: 0
+    .navbar-collapse
+        margin-top: 30px
+    .m-span
+        font-size: 16px
+        font-weight: 600
+    .start-list-item
+        font-size: 14px
+        font-weight: 500
+        & img
+            width: 35px
+    .about
+        &__h2
+            padding-left: 0
+            margin-bottom: 25px
+        &__left
+            font-size: 40px
+            & span
+                font-size: 24px
+        &__right
+            font-size: 40px
+            & span
+                font-size: 24px
+    .video
+        margin-top: 75px
+    .video
+        &__link
+            min-height: 200px
+            & svg
+                top: 32%
+                left: 42%
+    .service
+        margin-top: 75px
